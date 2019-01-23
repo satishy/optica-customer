@@ -1,5 +1,4 @@
-# Atos OPTICA Code Exercise
-
+# Atos Optica 
 ## Intro
 This project contains a simple REST API built on Spring Boot that has been forked from [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/).
 
