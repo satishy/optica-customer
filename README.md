@@ -74,26 +74,12 @@ There is no need to persist the data (i.e. no need to use a database)
     * Run CustomerApplicationTests from test folder 
     * Run Postman collection script from project root folder 
 
-## Exercise
-This repository contains a class called `CustomerController` in the `controller` package.
+## Package Structure
+controller
+`CustomerController` in the `controller` package.
+domain
+service
+persistence
+exceptions
+common
 
-You must clone this repository, implement the `api/customers/` and 'api/cusotmers/{id}' endpoint inside the `CustomerController`, and commit your code.
-
-The endpoint must take a id as a parameter and return a response of the form:
-```
-{
-    "Id": "{id}",
-    "Firstname": "firstName",
-    "Surname": "lastName"
-}
-```
-
-eg.
-`/customers/A12345` should return:
-```
-{
-    "Id": "bzzubu",
-    "Firstname": "Satish",
-    "Surname": "Yeruva"
-}
-```
