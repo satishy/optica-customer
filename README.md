@@ -19,7 +19,7 @@ We require a simple HTTP based RESTful API that provides 3 operations for managi
     REMOVE Method Endpoint - http://localhost:8080/api/customers/A12345
     Submit id as pathparam
 
-Operation 3: List all Customers
+* Operation 3: List all Customers
 Where a Customer has the following attributes:
 • Id
 • Firstname
@@ -53,26 +53,26 @@ Response - Below data is coming from List collection from code.
     ]
 }
     ```
-
+## Requirements
 
 The API and its Operations should:
-* Use JSON for data transfer
-* Adhere to REST principles
-* Be written using Java
-* Be committed to a publicly available SCM
-* Be runnable/testable on a Windows or Mac laptop with JDK 8 and Maven 3 installed (e.g. via maven commands or similar)
-* Have automated tests for each operation
+    * Use JSON for data transfer
+    * Adhere to REST principles
+    * Be written using Java
+    * Be committed to a publicly available SCM
+    * Be runnable/testable on a Windows or Mac laptop with JDK 8 and Maven 3 installed (e.g. via maven commands or similar)
+    * Have automated tests for each operation
 There is no need to persist the data (i.e. no need to use a database)
 
 
 ## To Build and Run
 
-* mvn clean install or mvn spring-boot:run
-* Goto target folder run - java -jar <filename>.jar 
+    * mvn clean install or mvn spring-boot:run
+    * Goto target folder run - java -jar <filename>.jar 
 
 ## Testing 
-* Run CustomerApplicationTests from test folder 
-* Run Postman collection script from project root folder 
+    * Run CustomerApplicationTests from test folder 
+    * Run Postman collection script from project root folder 
 
 ## Exercise
 This repository contains a class called `CustomerController` in the `controller` package.
