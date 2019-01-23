@@ -1,0 +1,11 @@
+com\camellia\csl\atos\customer\service\CustomerService.class
+com\camellia\csl\atos\customer\domain\Customer.class
+com\camellia\csl\atos\customer\controller\CustomerController.class
+com\camellia\csl\atos\customer\service\CustomerServiceImpl.class
+com\camellia\csl\atos\customer\domain\OpticaParent$OpticaParentBuilder.class
+com\camellia\csl\atos\customer\domain\OpticaParent.class
+com\camellia\csl\atos\customer\CustomerApplication.class
+com\camellia\csl\atos\customer\exceptions\CustomerException.class
+com\camellia\csl\atos\customer\domain\Customer$CustomerBuilder.class
+com\camellia\csl\atos\customer\persistence\CustomerRepository.class
+com\camellia\csl\atos\customer\common\ContractEndpoint.class
