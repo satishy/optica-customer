@@ -4,9 +4,10 @@
 This project contains a simple REST API built on Spring Boot that has been forked from [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/).
 
 We require a simple HTTP based RESTful API that provides 3 operations for managing customers. These Operations are:
-• Operation 1: Add a Customer
-• Operation 2: Remove a Customer, given their ID
-• Operation 3: List all Customers
+
+Operation 1: Add a Customer
+Operation 2: Remove a Customer, given their ID
+Operation 3: List all Customers
 Where a Customer has the following attributes:
 • Id
 • Firstname
@@ -24,7 +25,7 @@ There is no need to persist the data (i.e. no need to use a database)
 ## To Build and Run
 
 mvn clean install or mvn spring-boot:run
-Goto target folder run - java -jar 
+Goto target folder run - java -jar <filename>.jar 
 
 
 ## Exercise
