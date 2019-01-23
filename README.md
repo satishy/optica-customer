@@ -82,3 +82,5 @@ persistence
 exceptions
 common
 
+Note: Error Handling is not implemented in this project
+
